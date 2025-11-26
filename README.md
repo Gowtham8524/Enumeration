@@ -77,7 +77,7 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
-
+![alt text](<img/Screenshot 2025-11-26 202309.png>)
 
 
 ## dnsenum
@@ -95,7 +95,7 @@ Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
 ## OUTPUT
-![alt text](20251126_1801_image.png)
+![alt text](<img/Screenshot 2025-11-26 202130.png>)
 
 
 ## smtp-user-enum
@@ -106,8 +106,8 @@ Username guessing tool primarily for use against the default Solaris SMTP servic
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 ## OUTPUT
-![alt text](20251126_1806_image.png)
 
+![alt text](<img/Screenshot 2025-11-26 202505.png>)
 select any username in the first column of the above file and check the same
 
 
@@ -119,15 +119,15 @@ and issue appropriate commands
   
  ## Output
   
-  ![alt text](image.png)
+  ![alt text](<img/Screenshot 2025-11-26 202754.png>)
+  ![alt text](<img/Screenshot 2025-11-26 202710.png>)
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
 
 ## OUTPUT:
-![alt text](3_cleanup.png)
-![alt text](4_cleanup.png)
+![alt text](<img/Screenshot 2025-11-26 182003.png>)
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
 
